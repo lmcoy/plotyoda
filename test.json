@@ -1,0 +1,21 @@
+{
+    "outfiles": ["test.pgf", "test.pdf"], 
+    "which": [ "normal", "ratio" ],
+    "histograms": [
+        {"plot": "/NAME", "label": "Plot 1", "filename": "file1.yoda"}, 
+        {"plot": "/NAME", "label": "Plot 2", "filename": "file2.yoda"}
+    ], 
+    "config": {
+        "yscale": "log", 
+        "xmin": 60.0,
+        "xmax": 120.0, 
+        "xlabel": "x label", 
+        "ylabel": "y label", 
+        "rlabel": "ratio plot label",
+        "rebin": 1,
+        "errors": false,
+        "errorsalpha": 0.1,
+        "title": "figure title",
+        "titleloc": "left"
+    }
+}
